@@ -8,7 +8,8 @@
 1. Git과 Github는 같다. (맞으면 O, 틀리면 X)
 
    - 답 :   x
-   - 이유 :  git을 저장하는 서버가 github
+   - 이유 :  git을 저장하는 서버가 github `git` = (분산) 버전 관리 프로그램, `github` = 원격저장 서버, 서비스
+
 
    
 
