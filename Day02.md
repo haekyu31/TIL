@@ -16,3 +16,29 @@ github에 프로필을 만들었다
 
 ---
  ### branch ###
+ branch는 나뭇가지로 master와 독립적으로 작업할수 있도록 만든 방식
+ ```bash
+ #브랜치 목록
+ git branch
+ #브랜치 생성
+ git branch <>
+ #브랜치 삭제
+ git branch -d <> #병합된 브랜치
+ git branch -D <> #브랜치 강제삭제
+ ```
+--- 
+ ```bash
+ git switch #브랜치 이동
+ git switch -c <> #브랜치를 만들고 동시에 이동
+ ```
+- branch를 만들면 git branch로 어느 branch에 있는지 확인하고
+- branch 에서 작업한다음 git add, git commmit을 해야한다.
+- git push origin <branch> 로 github에 올려보낸다
+- github에서 merge확인할수있다.
+
+```bash
+git merge <branch> #브랜치를 병합할때 사용하는 방법
+#어느 branch에 있는지 확인해야한다.
+#병합한 뒤에는 branch를 삭제한다
+git branch -d <>
+```
